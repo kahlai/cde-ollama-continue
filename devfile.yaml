@@ -20,6 +20,7 @@ components:
     cpuRequest: 1000m
     mountSources: true
     sourceMapping: /projects
+    args: ['tail', '-f', '/dev/null']
 - name: ollama
   attributes:
     container-overrides:
