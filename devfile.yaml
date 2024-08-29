@@ -28,7 +28,8 @@ components:
         limits:
           cpu: 4000m
           memory: 12Gi
-          # nvidia.com/gpu: 1 # Uncomment this if the pod shall be scheduled only on a GPU node
+          nvidia.com/gpu: 1 
+          # Uncomment this if the pod shall be scheduled only on a GPU node
         requests:
           cpu: 1000m
           memory: 8Gi
